@@ -1,0 +1,61 @@
+* {
+
+margin:0;
+padding: 0;
+
+}
+
+
+
+.principal-titles {
+
+text-align: center;
+margin: 10px 0;
+font-size: 15px;
+
+font-family: Roboto, sans-serif;
+font-weight: 300;
+
+
+}
+
+figcaption, li {
+
+font-family: Lato, sans-serif;
+font-size: 17px;
+font-weight: 300;
+
+}
+
+li {
+  cursor: pointer;
+
+
+}
+
+
+.home-image-div {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px 0;
+
+}
+
+.menu-nav {
+
+  background-color: gray;
+}
+
+.menu-list {
+  height: 50px;
+
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
