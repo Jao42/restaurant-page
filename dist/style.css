@@ -5,13 +5,28 @@ padding: 0;
 
 }
 
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+.home-content {
+
+  width: 80%;
+  background-color: #ebebeb;
+
+}
+
 
 
 .principal-titles {
 
 text-align: center;
-margin: 10px 0;
+margin: 20px 0;
 font-size: 15px;
+
+
 
 font-family: Roboto, sans-serif;
 font-weight: 300;
@@ -29,7 +44,14 @@ font-weight: 300;
 
 li {
   cursor: pointer;
+  user-select: none;
 
+
+}
+
+li:hover {
+
+color: #fff;
 
 }
 
@@ -40,13 +62,13 @@ li {
   align-items: center;
   justify-content: center;
 
-  margin: 10px 0;
+  margin: 30px 0;
 
 }
 
 .menu-nav {
 
-  background-color: gray;
+  background-color: #adadad;
 }
 
 .menu-list {
