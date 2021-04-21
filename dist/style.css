@@ -11,14 +11,14 @@ body {
 
 }
 
-.home-content {
+.content {
   width: 80%;
   background-color: #ebebeb;
 }
 
 /*General*/
 
-.principal-titles {
+.principal-title {
 
   text-align: center;
   margin: 20px 0;
@@ -29,7 +29,7 @@ body {
 
 }
 
-.figcaption-default, .menu-link {
+.default-figcaption, .menu-link {
 
   font-family: Lato, sans-serif;
   font-size: 17px;
@@ -83,5 +83,57 @@ color: #fff;
   align-items: center;
 
 }
+
+.menu-item {
+
+  font-family: monospace;
+  font-size: 15px;
+
+}
+
 /* Menu */
+
+.frufru {
+
+  height: 1px;
+  width: 100%;
+  border-bottom: 3px dotted gray;
+}
+
+
+.dishes-menu-item {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+
+}
+
+.dishes-menu {
+  height: 600px;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+.dish-name, .dish-price, .dish-menu-image {
+
+  margin: 5px;
+
+}
+
+
+.dish-menu-image {
+
+  width: 100px;
+  height: 100px;
+
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07),0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07),0 32px 64px rgba(0,0,0,0.07);
+
+  border-radius: 10%;
+  border: 2px solid #e8e8e8;
+
+}
+
+/* dish menu */
+
 
