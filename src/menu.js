@@ -5,9 +5,10 @@ function renderDishesMenu(place) {
   menuDiv.classList.add('dishes-menu');
   place.appendChild(menuDiv);
 
-
-  createDish(['./imgs/pasta1.jpg', 'PASTA', '$400'], menuDiv);
-  
+  createDish(['./imgs/pasta1.jpg', 'PASTA', '$450'], menuDiv);
+  createDish(['./imgs/pasta2.jpg', 'PASTA', '$800'], menuDiv);
+  createDish(['./imgs/pasta3.jpg', 'PASTA', '$1610'], menuDiv);
+  createDish(['./imgs/pasta4.jpg', 'PASTA', '$10010'], menuDiv);
 
 }
 
