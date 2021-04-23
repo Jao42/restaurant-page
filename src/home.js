@@ -28,6 +28,18 @@ function renderHome() {
   const main = document.querySelector('main');
   const pageContent = document.querySelector('.content');
 
+  const homeTitles = document.createElement('header');
+  homeTitles.classList.add('home-titles');
+  const homeH1 = document.createElement('h1');
+  homeH1.textContent = 'Ricco Ristorante';
+  const homeH2 = document.createElement('h2');
+  homeH2.textContent = 'the food may not be good, but if you buy it here you definitely proved to be rich!';
+
+  homeTitles.appendChild(homeH1);
+  homeTitles.appendChild(homeH2);
+
+  main.appendChild(homeTitles);
+
   createDefaultFigures(
       main,
       './imgs/restaurant4-red.jpg', 
@@ -39,9 +51,6 @@ function renderHome() {
       './imgs/restaurant-red.jpg', 
       'A restaurant Chief', 
       'With incredibly well-paid chefs');
-  
-  createMenu(pageContent, main);
-  
   }
 
 export default renderHome

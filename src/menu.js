@@ -3,6 +3,11 @@ function renderDishesMenu(place) {
   let menuDiv = document.createElement('div');
   
   menuDiv.classList.add('dishes-menu');
+  const menuTitle = document.createElement('h1');
+  menuTitle.classList.add('menu-title');
+  menuTitle.textContent  = 'Menu';
+  place.appendChild(menuTitle);
+
   place.appendChild(menuDiv);
 
   createDish(['./imgs/pasta1.jpg', 'PASTA', '$450'], menuDiv);
