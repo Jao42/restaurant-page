@@ -1,5 +1,6 @@
 import { renderDishesMenu } from './menu'
 import renderHome from './home'
+import renderContact from './contact';
 
 function createMenu(place, mainContent) {
   const navMenu = document.createElement('nav');
@@ -44,7 +45,8 @@ function addListenersNavMenu(menuList, pageContent) {
         pageContent.innerHTML = '';
         let tabName = i.textContent;
         if (tabName == 'Menu') renderDishesMenu(pageContent);
-        if (tabName == 'Home') renderHome();
+        else if (tabName == 'Home') renderHome();
+        else renderContact(pageContent);
           
       }
     })
